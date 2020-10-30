@@ -1,0 +1,50 @@
+
+header{
+	height: 100px;
+	background-color:white;
+	display: flex;
+	justify-content: space-around;
+	border: 3px solid black;
+}
+
+.header-left{
+	width: 80px;
+	margin: 15px 10px 15px 80px;
+}
+
+.fab, .fa-battle-net{
+	font-size: 70px;
+	color: gray;
+	/*margin-left: 20px;
+	margin-top: 18px;*/
+}
+.header-center{
+	display: flex;
+	align-items: center;
+	font-size: 23px;
+	color: gray;
+}
+
+.header-center li{
+	font-weight: 2;
+	letter-spacing: 5px;
+    text-shadow: 0px 0px 10px rgba(98, 251, 259, .8);
+    margin-left: 25px;
+    color: gray;
+
+}
+
+.header-right{
+	border: 2px solid #27e1ce;
+	height: 40px;
+	width: 130px;
+	border-radius: 30px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    color:#27e1ce;
+}
+
+
+
