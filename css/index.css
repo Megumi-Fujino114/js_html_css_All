@@ -1,10 +1,10 @@
 
 header{
 	height: 100px;
+	width: 100%;
 	background-color:white;
 	display: flex;
 	justify-content: space-around;
-	border: 3px solid black;
 }
 
 .header-left{
@@ -44,6 +44,190 @@ header{
     align-items: center;
     margin-top: 28px;
     color:#27e1ce;
+}
+
+main{
+	background-image: url(../img/Tsurutama.jpg);
+	height: 780px;
+	width: 100%;
+	background-size: cover;
+}
+
+.main-in{
+	display: flex;
+	background-color: #e5e9ea;
+	justify-content: space-around;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.main-left img{
+	height: 330px;
+	width: 330px;
+	border-radius: 30px;
+	margin-left: 90px;
+}
+
+.main-right{
+	margin-right: 100px;
+	font-size: 25px;
+	color:gray;
+	letter-spacing: 3px;
+	text-shadow: 0px 0px 10px rgba(98, 251, 259, .8);
+}
+
+.main-right p{
+	margin-top: 8px;
+	line-height: 28px;
+}
+
+.section{
+	display: flex;
+	justify-content: center;
+	margin-top:80px;
+	margin-bottom: 80px;
+}
+
+.section img{
+	height: 300px;
+	width: 400px;
+}
+
+.section div{
+	height: 300px;
+	width: 400px;
+	background-color: #dbcfbd;
+}
+
+h2{
+	margin-left: 80px;
+	margin-top: 19px;
+	font-size: 20px;
+}
+
+article{
+	margin-left: 30px;
+	margin-top: 24px;
+	font-size: 14px;
+	letter-spacing: 5px;
+    line-height: 25px;
+}
+
+.contents{
+	height: 400px;
+	background-color: #e5e9ea;
+}
+
+h3{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	color: gray;
+	text-shadow: 0px 0px 10px rgba(98, 251, 259, .8);
+}
+
+.content-in{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:30px;
+}
+
+.content-in img{
+	margin-right: 80px;
+}
+
+h4{
+	font-size: 28px;
+	margin-bottom: 10px;
+	color :gray;
+	text-shadow: 0px 0px 10px rgba(98, 251, 259, .8);
+}
+
+.content-in p{
+	font-size: 20px;
+	line-height: 30px;
+	color: gray;
+	text-shadow: 0px 0px 10px rgba(98, 251, 259, .8);
+}
+.dan{
+	height: 600px;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.contact{
+	text-align: center;
+	background-color:#e5e9ea;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.subtitle{
+font-size: 30px;
+color: gray;
+text-align: center;
+text-shadow: 0px 0px 10px rgba(98, 251, 259, .8);
+
+
+}
+
+.form{
+	display: flex;
+	justify-content: center;
+}
+
+.form .name ,.form .email{
+	height: 50px;
+	width: 400px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.form-left{
+	margin-right: 50px;
+}
+
+.inquiry{
+	height: 120px;
+	width: 400px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.form .name{
+	margin-bottom: 20px;
+}
+
+.contact .form{
+	margin: 50px 0 40px;
+}
+
+button{
+	background-color:#a8c0d4;
+	border:solid 3px #5d7ca2;
+	border-radius: 20px;
+	/*margin-right: 100px;*/
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	margin-top: 10px;
+	/*margin-left: 47%;*/
+	cursor: pointer;
+	font-size: 20px;
+	color: gray;
+	text-shadow: 0px 0px 10px rgba(98, 251, 259, .8);
+}
+
+button:hover{
+	background-color: #77a8cd;
+}
+
+footer{
+	height: 100px;
+	background-color: white;
 }
 
 
